@@ -1,0 +1,57 @@
+h2 {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+article span {
+  font-size: 18px;
+  font-weight: bold;
+}
+div[ngIf] {
+  animation: fade-in-out 2s ease-in-out;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+article {
+  border: 2px solid #f44336;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 10px;
+  padding: 10px;
+}
+div {
+  background-color: #fff;
+  color: #212121;
+  padding: 10px;
+}
+div {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+article {
+  display: table-row;
+}
+
+span {
+  display: table-cell;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
